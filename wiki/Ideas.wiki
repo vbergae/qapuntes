@@ -1,0 +1,11 @@
+#summary One-sentence summary of this page.
+
+= Ideas =
+
+Edita esta página y añade ideas o funciones
+
+
+== Details ==
+
+  * Organizar apuntes
+  * _Otra idea_
