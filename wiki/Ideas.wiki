@@ -7,5 +7,16 @@ Edita esta página y añade ideas o funciones
 
 == Details ==
 
+* Biblioteca
   * Organizar apuntes
-  * _Otra idea_
+    * Por asignaturas, cursos, profesores, año académico
+  * Organizar recursos
+    * Enlaces
+    * Favoritos
+    * Urls
+
+* Calendario
+  * Tareas
+  * Eventos
+
+* _[http://code.google.com/p/qapuntes/w/edit.do Editar] para más ideas_
