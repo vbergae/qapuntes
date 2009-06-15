@@ -19,4 +19,4 @@ Edita esta página y añade ideas o funciones
   * Tareas
   * Eventos
 
-* _[http://code.google.com/p/qapuntes/w/edit.do Editar] para más ideas_
+* _[http://code.google.com/p/qapuntes/w/edit/Ideas Editar] para más ideas_
