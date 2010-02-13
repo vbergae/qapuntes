@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GradesForm</class>
+ <widget class="QWidget" name="GradesForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>686</width>
+    <height>406</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QListView" name="gradesList">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>311</width>
+     <height>361</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>10</y>
+     <width>351</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>GroupBox</string>
+   </property>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>60</y>
+      <width>120</width>
+      <height>80</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
