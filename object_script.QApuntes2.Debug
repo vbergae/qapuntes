@@ -1,0 +1,16 @@
+INPUT(
+./debug\main.o
+./debug\MainWindow.o
+./debug\dbSettingsDialog.o
+./debug\GradesForm.o
+./debug\SubjectsForm.o
+./debug\HomeForm.o
+./debug\TeachersForm.o
+./debug\moc_MainWindow.o
+./debug\moc_dbSettingsDialog.o
+./debug\moc_GradesForm.o
+./debug\moc_SubjectsForm.o
+./debug\moc_HomeForm.o
+./debug\moc_TeachersForm.o
+./debug\qrc_qapuntes2.o
+);

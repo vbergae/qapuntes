@@ -1,0 +1,431 @@
+#LyX 1.6.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+ERS
+\end_layout
+
+\begin_layout Author
+Víctor Berga
+\end_layout
+
+\begin_layout Date
+06/10/2009
+\end_layout
+
+\begin_layout Section
+Introducción
+\end_layout
+
+\begin_layout Standard
+Este documento es una Especificación de Resquerimientos de Software (ERS)
+ para un sistema de gestión para estudiantes
+\end_layout
+
+\begin_layout Subsection
+Propósito
+\end_layout
+
+\begin_layout Standard
+El objetivo de esta especificación es definir de manera clara y concisa
+ todas las funciones y restricciones del sistema que se desea construir.
+ Este documento va dirigido a los desarrolladores y usuario finales
+\end_layout
+
+\begin_layout Subsection
+Ámbito del sistema
+\end_layout
+
+\begin_layout Standard
+La justificación del desarrollo de este sistema es la creación de un sistema
+ de libre distribución
+\end_layout
+
+\begin_layout Subsection
+Definiciones, Acrónimos y Abreviaturas
+\end_layout
+
+\begin_layout Subsection
+Referencias
+\end_layout
+
+\begin_layout Subsection
+Visión general del Documento
+\end_layout
+
+\begin_layout Section
+Descripción general
+\end_layout
+
+\begin_layout Subsection
+Perspectiva del Proyecto
+\end_layout
+
+\begin_layout Subsection
+Funciones del Proyecto
+\end_layout
+
+\begin_layout Standard
+El sistema deberá proporcionar las siguientes funciones de gestión:
+\end_layout
+
+\begin_layout Itemize
+Gestión de cursos
+\end_layout
+
+\begin_layout Itemize
+Gestión de asignaturas
+\end_layout
+
+\begin_layout Itemize
+Gestión de tareas
+\end_layout
+
+\begin_layout Itemize
+Gestión de compañeros
+\end_layout
+
+\begin_layout Itemize
+Gestión de profesores
+\end_layout
+
+\begin_layout Standard
+A continuación se describirán con más detalle estas tareas y como serán
+ soportadas por el sistema.
+\end_layout
+
+\begin_layout Subsubsection
+Gestión de cusos
+\end_layout
+
+\begin_layout Standard
+La gestión de cursos se basará en la organización de los períodos académicos
+ por id.
+ único, nombre y fecha de comienzo y final del curso.
+\end_layout
+
+\begin_layout Standard
+Las tareas que se realizarán para la gestión de cursos serán las siguientes:
+\end_layout
+
+\begin_layout Enumerate
+Alta de cursos
+\end_layout
+
+\begin_layout Enumerate
+Baja de Cursos
+\end_layout
+
+\begin_layout Enumerate
+Modificación de la información de algún curso
+\end_layout
+
+\begin_layout Enumerate
+Listas los cursos disponibles
+\end_layout
+
+\begin_layout Subsubsection
+Gestión de asignaturas
+\end_layout
+
+\begin_layout Standard
+Las asignaturas son la base de cualquier curso.
+ Cada asignatura es una unidad especializada sobre un temática particular
+ dentro de cada curso.
+ La información que se almacenará sobre las asignaturas será id.
+ único, nombre de la asignatura, horario, profesor que la imparte, lugar
+ donde se imparte.
+\end_layout
+
+\begin_layout Standard
+Las tareas que se realizarán para la gestión de asignaturas serán las siguientes
+:
+\end_layout
+
+\begin_layout Enumerate
+Alta de asignaturas
+\end_layout
+
+\begin_layout Enumerate
+Baja de asignaturas
+\end_layout
+
+\begin_layout Enumerate
+Modificación de la información de laguna asignatura
+\end_layout
+
+\begin_layout Enumerate
+Lista de asignaturas disponibles
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Para un curso
+\end_layout
+
+\begin_layout Enumerate
+Todas las asignaturas
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Gestión de tareas
+\end_layout
+
+\begin_layout Standard
+Las funciones para la gestión de tareas serán:
+\end_layout
+
+\begin_layout Enumerate
+Alta de tareas
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Por asignaturas
+\end_layout
+
+\begin_layout Enumerate
+Por cursos
+\end_layout
+
+\begin_layout Enumerate
+Independientes (tareas de apoyo)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Baja de tareas
+\end_layout
+
+\begin_layout Enumerate
+Modificación de la información de alguna tarea
+\end_layout
+
+\begin_layout Enumerate
+Lista de tareas
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Por asignaturas
+\end_layout
+
+\begin_layout Enumerate
+Por cursos
+\end_layout
+
+\begin_layout Enumerate
+Independientes
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Gestión de compañeros
+\end_layout
+
+\begin_layout Standard
+Las tareas para la gestión de compañeros seran:
+\end_layout
+
+\begin_layout Enumerate
+Alta de compañeros
+\end_layout
+
+\begin_layout Enumerate
+Baja de compañeros
+\end_layout
+
+\begin_layout Enumerate
+Modificación de la información sobre los compañeros
+\end_layout
+
+\begin_layout Enumerate
+Lista de compañeros
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Por cursos
+\end_layout
+
+\begin_layout Enumerate
+Por asignaturas
+\end_layout
+
+\begin_layout Enumerate
+Por grupos
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Características de los Usuarios
+\end_layout
+
+\begin_layout Standard
+Los usuarios que hagan uso de la aplicación deberán estar familiarizados
+ con los entornos informáticos, con una experiencia mínima a nivel de usuario
+ para el manejo básico.
+\end_layout
+
+\begin_layout Subsection
+Restricciones
+\end_layout
+
+\begin_layout Subsection
+Suposiciones y Dependencias
+\end_layout
+
+\begin_layout Subsection
+Requisitos Futuros
+\end_layout
+
+\begin_layout Standard
+Se debe estudiar la posibilidad de sincronización de los datos independientement
+e del cliente sobre el que estemos trabajando en un momento dado.
+\end_layout
+
+\begin_layout Section
+Resquisitos específicos
+\end_layout
+
+\begin_layout Standard
+Todos los requisitos funcionales que se presentan en este apartado son esenciale
+s y no sería aceptable un sistema donde no estuvieran disponibles alguna
+ de las funciones aquí descritas.
+ Estos requisitos se han especificado teniendo en cuenta el criterio de
+ 
+\begin_inset Quotes eld
+\end_inset
+
+testibilidad
+\begin_inset Quotes erd
+\end_inset
+
+: cada requisisto debe ser fácilmente demostrable si es satisfecho o no
+ por el sistema.
+\end_layout
+
+\begin_layout Standard
+A continuación se representa la información sobre la estructura de datos
+ que usará el sistema:
+\end_layout
+
+\begin_layout Itemize
+Cursos
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+int id
+\end_layout
+
+\begin_layout Itemize
+char name [25]
+\end_layout
+
+\begin_layout Itemize
+date initData
+\end_layout
+
+\begin_layout Itemize
+date finalDate
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Asignaturas
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+int id
+\end_layout
+
+\begin_layout Itemize
+char nombre [50]
+\end_layout
+
+\begin_layout Itemize
+int idCurso
+\end_layout
+
+\begin_layout Itemize
+int idProfesor
+\end_layout
+
+\begin_layout Itemize
+date horario
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Interfaces Externas
+\end_layout
+
+\begin_layout Subsection
+Funciones
+\end_layout
+
+\begin_layout Subsection
+Requisitos de Rendimiento
+\end_layout
+
+\begin_layout Subsection
+Restricciones de Diseño
+\end_layout
+
+\begin_layout Subsection
+Atributos del Sistema
+\end_layout
+
+\begin_layout Subsection
+Otros Requisitos
+\end_layout
+
+\begin_layout Section
+Apéndices
+\end_layout
+
+\end_body
+\end_document

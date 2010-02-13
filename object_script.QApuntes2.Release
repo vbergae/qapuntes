@@ -1,0 +1,16 @@
+INPUT(
+./release\main.o
+./release\MainWindow.o
+./release\dbSettingsDialog.o
+./release\GradesForm.o
+./release\SubjectsForm.o
+./release\HomeForm.o
+./release\TeachersForm.o
+./release\moc_MainWindow.o
+./release\moc_dbSettingsDialog.o
+./release\moc_GradesForm.o
+./release\moc_SubjectsForm.o
+./release\moc_HomeForm.o
+./release\moc_TeachersForm.o
+./release\qrc_qapuntes2.o
+);
